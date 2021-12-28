@@ -15,7 +15,7 @@ const Hero = (props) => (
       Hi! I'm Django, a front end developer. I love learning, problem solving, and working together.
       I'll be a valueable addition to any team. 
       </SectionText>
-      <Button onClick={()=> window.location = 'https://djangokerger.github.io/' }>Learn More</Button>
+      <Button onClick={()=> window.location = 'https://github.com/DjangoKerger' }>Github</Button>
     </LeftSection>
   </Section>
 );
