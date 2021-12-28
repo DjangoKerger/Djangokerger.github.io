@@ -5,9 +5,19 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
-  <div>
-    Hero
-  </div>
+  <Section row nopadding>
+    <LeftSection>
+      <SectionTitle main center>
+        Welcome to <br />
+        My Personal Portfolio
+      </SectionTitle>
+      <Sectiontext>
+      Hi! I'm Django, a front end developer. I love learning, problem solving, and working together.
+      I'll be a valueable addition to any team. 
+      </Sectiontext>
+      <Button onClick={()=> window.location = 'https://djangokerger.github.io/' }>Learn More</Button>
+    </LeftSection>
+  </Section>
 );
 
 export default Hero;
