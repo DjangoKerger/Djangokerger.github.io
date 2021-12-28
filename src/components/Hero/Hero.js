@@ -11,10 +11,10 @@ const Hero = (props) => (
         Welcome to <br />
         My Personal Portfolio
       </SectionTitle>
-      <Sectiontext>
+      <SectionText>
       Hi! I'm Django, a front end developer. I love learning, problem solving, and working together.
       I'll be a valueable addition to any team. 
-      </Sectiontext>
+      </SectionText>
       <Button onClick={()=> window.location = 'https://djangokerger.github.io/' }>Learn More</Button>
     </LeftSection>
   </Section>
