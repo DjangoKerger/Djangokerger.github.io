@@ -38,7 +38,7 @@ const Header = () =>  (
       <SocialIcons href="https://www.linkedin.com/in/django-kerger-5a1a081a8/">
         <AiFillLinkedin size = "3rem"/>
       </SocialIcons>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://github.com/DjangoKerger">
         <AiFillInstagram size = "3rem"/>
       </SocialIcons>
     </Div3>
