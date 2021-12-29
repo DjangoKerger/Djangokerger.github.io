@@ -1,1 +1,3 @@
-# Djangokerger.github.io
+---
+permalink: /index.html
+---
