@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "deploy" : "npm run build&&gh-pages -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "dependencies": {
     "next": "^12.0.7",
